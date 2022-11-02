@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const name = 'Alferd';
+const name = 'Alferd Enchapados SA de CV';
 
 const Jsx = () => {
   return(
