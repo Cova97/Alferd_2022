@@ -8,13 +8,13 @@ const name = 'Alferd Enchapados SA de CV';
 
 const Jsx = () => {
   const [inicio, cambiarInicio] = useState(false);
-
   return(
     <>
       {inicio === true ? (
         <>
           <h1>Hola {name} </h1>
           <button onClick={() => cambiarInicio(false)}>Cerrar sesión</button>
+          
         </>
       ) :(
         <>
@@ -27,9 +27,3 @@ const Jsx = () => {
 };
 
 root.render(<Jsx/>);
-
-
-/*
-
-
-*/
