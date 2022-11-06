@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Button from 'react-bootstrap/Button';
 
 const FormLogin = (props) => {
     const[user, setUser] = useState("");
@@ -47,7 +48,7 @@ const FormLogin = (props) => {
                     value={password} 
                     onChange={onChange}></input>
                 </div>
-                <button >Iniciar sesión</button>
+                <Button variant="primary" type="submit">Iniciar sesión</Button>{''}
             </form>
         </>
     );

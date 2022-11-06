@@ -14,9 +14,8 @@ const Jsx = () => {
         <>
           <h1>Hola {name} </h1>
           <button onClick={() => cambiarInicio(false)}>Cerrar sesión</button>
-          
         </>
-      ) :(
+      ) : (
         <>
           <h1>Iniciar sesión</h1>
           <FormLogin cambiarInicio={cambiarInicio}/>
