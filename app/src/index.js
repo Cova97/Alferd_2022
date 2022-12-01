@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import FormLogin from './Login';
 import FormSingIn from './SingIn';
+import NavB from './Nav';
 import "./styles.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ const Jsx = () => {
       {inicio === true ? (
         <>
           <h1>Hola Bienvenido</h1>
+          <NavB/>
           <button onClick={() => cambiarInicio(false)}>Cerrar sesión</button>
         </>
       ) : (
